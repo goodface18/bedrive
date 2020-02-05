@@ -3,6 +3,7 @@
 @section('progressive-app-tags')
 	<link rel="manifest" href="client/manifest.json">
 	<meta name="theme-color" content="#1976d2">
+	<script data-ad-client="ca-pub-7269954483216817" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 @endsection
 
 @section('angular-styles')

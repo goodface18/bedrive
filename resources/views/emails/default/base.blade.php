@@ -7,7 +7,6 @@
             table td {
                 border-collapse: collapse;
             }
-
             body[dir=rtl] {
                 direction: rtl;
                 unicode-bidi: embed;

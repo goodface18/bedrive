@@ -1,0 +1,111 @@
+.logo {
+    display: block;
+    max-width: 220px;
+    margin-bottom: 20px;
+}
+
+/* Vue.js material overrides */
+
+.application--wrap {
+    align-items: center;
+    justify-content: center;
+}
+
+.v-stepper {
+    width: 850px;
+    max-width: 90vw;
+}
+
+.v-stepper__header {
+    box-shadow: none;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.v-progress-linear {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    margin: 0;
+}
+
+.v-btn {
+    margin-left: 0;
+}
+
+.v-list {
+    margin-bottom: 15px;
+}
+
+/* Utils */
+
+.error-container {
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px 20px 0;
+}
+
+p {
+    margin: 16px 0;
+}
+
+.margin-top-none {
+    margin-top: 0;
+}
+
+/* Inputs */
+
+.input-container {
+    display: block;
+    width: 100%;
+}
+
+label {
+    color: inherit;
+    display: block;
+    padding-bottom: 5px;
+}
+
+input, select, textarea, .fake-input {
+    width: 100%;
+    height: 46px;
+    color: inherit;
+    border: 1px solid #E0E0E0;
+    padding: 12px;
+    line-height: normal;
+    font-size: 14px;
+    font-family: inherit;
+    background-color: inherit;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.many-inputs .input-container {
+    margin-bottom: 20px;
+}
+
+/* Installation completed panel */
+
+.install-completed-header {
+    margin: 5px 0 20px;
+    font-weight: 400;
+    font-size: 23px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 5px;
+}
+
+.site-urls {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.support-links-container {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.site-urls .col {
+    flex: 1 1 50%;
+}

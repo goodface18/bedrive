@@ -1,0 +1,357 @@
+:root {
+	--site-accent-color: #689f38;
+	--site-primary-color-100: #1976d2;
+	--site-primary-color-200: #1565c0;
+	--site-bg-color-100: #fff;
+	--site-bg-color-200: #FAFAFA;
+	--site-bg-color-300: #f1f1f1;
+	--site-bg-color-400: #d8d7d7;
+	--site-selected-item-bg-color: #e8f0fe;
+	--drive-text-color: #656565;
+	--site-text-color-100: #fff;
+	--site-text-color-200: rgba(0,0,0,.38);
+	--site-text-color-300: rgba(0,0,0,.54);
+	--site-text-color-400: rgba(0,0,0,.87);
+	--site-border-color-100: #eff1f2;
+	--site-border-color-200: #E0E0E0;
+}
+
+#theme details-panel .details-list .item .name,
+#theme details-panel .location-item .value .mat-icon,
+#theme toolbar-actions,
+#theme main-searchbar,
+#theme folders-tree,
+#theme sidebar
+{
+	color: var(--drive-text-color);
+}
+
+#theme details-sidebar > .header .close-button,
+#theme entry-breadcrumbs .breadcrumb-item .mat-icon,
+#theme entry-breadcrumbs .separator,
+#theme file-list-header .sort-header .label,
+#theme file-list-header .sort-header button:disabled,
+#theme .file-types-autocomplete.mat-autocomplete-panel .mat-option-text .owner,
+#theme entries-access-table .users-list .email,
+#theme .mat-menu-with-description .mat-menu-item .description,
+#theme upload-dropzone .content-circle,
+#theme uploads-panel-item .time-left,
+#theme analytics-header > .stat > .details > .name,
+#theme chart .chart-header .subtitle,
+#theme menu-items > .inner > .no-menu-items,
+#theme mail-templates > .label .type,
+#theme crupdate-role-modal .setting-container > p,
+#theme settings .settings-panels-container > *:not(router-outlet) > .header,
+#theme upgrade-page-aside .secure-shopping .text > .secondary,
+#theme upgrade-page .payment-step .legal-info,
+#theme .context-menu .context-menu-item:not(:disabled) .mat-icon,
+#theme .context-menu .context-menu-item > .alt-text,
+#theme .menu-with-alt-text .mat-menu-item > .alt-text,
+#theme .admin-table-panel .mat-table .mat-column-edit,
+#theme .input-container p,
+#theme .setting-toggle-container > p,
+#theme text-editor .mat-menu .alt-text
+{
+	color: var(--site-text-color-300);
+}
+
+#theme entry-breadcrumbs .breadcrumb-item,
+#theme drive .mat-sidenav-container .right-sidebar,
+#theme .files-grid-item-footer .text,
+#theme file-list-header,
+#theme link-preview-password-panel,
+#theme .file-types-autocomplete.mat-autocomplete-panel,
+#theme analytics-header > .stat,
+#theme analytics-header > .stat > .details > .count,
+#theme chart .chart-header .title,
+#theme mail-templates > .label .type.selected,
+#theme default-preview .panel,
+#theme text-preview,
+#theme .admin-pill-nav > .nav-item,
+#theme .context-menu .context-menu-item,
+#theme body,
+#theme .mat-menu-item
+{
+	color: var(--site-text-color-400);
+}
+
+#theme entry-breadcrumbs .breadcrumb-item:hover,
+#theme folders-tree .mat-tree .mat-tree-node:not(.active):not(.drag-over):hover,
+#theme sidebar .sidebar-menu-item:not(.active):not(.drag-over):hover,
+#theme uploads-panel-item .mat-progress-bar .mat-progress-bar-buffer,
+#theme .mat-flat-button.mat-gray
+{
+	background-color: var(--site-bg-color-300);
+}
+
+#theme toolbar-actions context-actions-container,
+#theme drive .mat-sidenav-container .left-sidebar,
+#theme drive .mat-sidenav-container .right-sidebar,
+#theme files-grid-item,
+#theme file-list-header,
+#theme entries-access-table .users-list .list-item,
+#theme link-options,
+#theme link-options .link-option,
+#theme share-dialog .emails-container .mat-flat-button,
+#theme upload-dropzone .animation-circle,
+#theme uploads-panel-item,
+#theme ads-page .panel,
+#theme ads-page .panel > .header,
+#theme chart .chart-header,
+#theme appearance-panel-meta,
+#theme appearance > .sidebar,
+#theme appearance > .sidebar .back-button,
+#theme appearance > .sidebar .header,
+#theme appearance .nav-item,
+#theme code-editor-modal .editor,
+#theme appearance-image-input .img-container,
+#theme appearance-list-input,
+#theme add-menu-item-panel > .header,
+#theme add-menu-item-panel .new-item-tabs .items-list > .item,
+#theme menus-appearance-panel .mat-expansion-panel,
+#theme menus-appearance-panel .mat-expansion-panel > .mat-expansion-panel-header.mat-expanded,
+#theme crupdate-plan-modal .section-title,
+#theme mail-template-preview .email-inbox > .header,
+#theme mail-template-preview .email-inbox > .toolbar > .actions > .buttons,
+#theme mail-template-preview .email-inbox > .toolbar > .actions > .buttons > .reply,
+#theme mail-templates > .header,
+#theme mail-templates > .header .action,
+#theme mail-templates > .label .type:last-of-type,
+#theme mail-templates > .template.column mail-template-preview,
+#theme mail-templates > .template > .editor,
+#theme mail-templates > .template > mail-template-preview,
+#theme crupdate-page > .slug-container > .back-button,
+#theme permissions-manager-panel .header,
+#theme assign-users-to-role-modal .with-addon > .input-addon,
+#theme roles .new-role,
+#theme translations > aside .new-localization,
+#theme translations > aside .update-translations,
+#theme user-access-manager .panel-outter > .header,
+#theme user-subscription-page .content .main-section,
+#theme user-subscription-page .card-preview,
+#theme accepted-payments-header,
+#theme order-summary,
+#theme order-summary,
+#theme order-summary .emphasis,
+#theme upgrade-page-aside,
+#theme upgrade-page-aside .secure-shopping,
+#theme chip-input .mat-chip-list-wrapper,
+#theme .admin-pill-nav.solid > .nav-item,
+#theme .mat-flat-button.mat-gray,
+#theme .admin-table-panel .admin-table-panel-header > .header-inner.selected,
+#theme .admin-table-panel .admin-table-panel-header > .header-inner.selected > .right > button,
+#theme .input-container input, #theme .input-container select, #theme .input-container textarea, #theme .input-container .fake-input,
+#theme text-editor,
+#theme text-editor .mce-tinymce .mce-panel,
+#theme text-editor .editor-header > .toolbar-row,
+#theme text-editor .editor-header .actions,
+#theme text-editor .editor-footer
+{
+	border-color: var(--site-border-color-200);
+}
+
+#theme .drive-sort-menu .separator
+{
+	background-color: var(--site-border-color-200);
+}
+
+#theme toolbar-actions .always-visible-actions .active,
+#theme .drive-sort-menu .mat-menu-item.active,
+#theme .la-ball-spin-clockwise
+{
+	color: var(--site-primary-color-200);
+}
+
+#theme uploads-panel .header,
+#theme material-navbar,
+#theme .mat-raised-button.mat-primary, #theme .mat-icon-button.mat-primary, #theme .mat-progress-bar-fill::after,
+#theme .mat-checkbox-checked.mat-primary .mat-checkbox-background, #theme .mat-checkbox-indeterminate.mat-primary .mat-checkbox-background,
+#theme .mat-radio-button.mat-primary .mat-radio-inner-circle,
+#theme .mat-step-header .mat-step-icon
+{
+	background-color: var(--site-primary-color-200);
+}
+
+#theme admin > .content .left-column > .menu-items > .menu-item.router-link-active
+{
+	border-left-color: var(--site-primary-color-200);
+}
+
+#theme .mat-radio-button.mat-primary.mat-radio-checked .mat-radio-outer-circle,
+#theme .mat-tab-group.mat-primary .mat-ink-bar, #theme .mat-tab-nav-bar.mat-primary .mat-ink-bar
+{
+	border-color: var(--site-primary-color-200);
+}
+
+#theme drive .mat-sidenav-container .right-sidebar,
+#theme drive .mat-sidenav-container .mat-sidenav-content,
+#theme files-grid-item,
+#theme link-preview-password-panel,
+#theme main-searchbar,
+#theme main-searchbar .input-container input:focus,
+#theme .file-types-autocomplete.mat-autocomplete-panel,
+#theme upload-dropzone .animation-circle,
+#theme uploads-panel,
+#theme connect-social-accounts-panel .social-login-row > .icon-container.facebook .mat-icon,
+#theme chart,
+#theme mail-templates > .header,
+#theme mail-templates > .template > .editor,
+#theme mail-templates > .template > mail-template-preview,
+#theme select-plan-panel .plans > .plan,
+#theme user-subscription-page .content,
+#theme upgrade-page .step-container,
+#theme default-preview .panel,
+#theme text-preview,
+#theme .context-menu,
+#theme .mat-menu-panel
+{
+	background-color: var(--site-bg-color-100);
+}
+
+#theme connect-social-accounts-panel .social-login-row > .icon-container.twitter,
+#theme connect-social-accounts-panel .social-login-row > .icon-container.google
+{
+	color: var(--site-bg-color-100);
+}
+
+#theme select-plan-period-panel .periods > .radio-button-wrapper > .savings-label:before
+{
+	border-left-color: var(--site-bg-color-100);
+}
+
+#theme drive .files-container.file-over-dropzone
+{
+	border-color: var(--site-primary-color-100);
+}
+
+#theme files-grid-item.selected .files-grid-item-footer,
+#theme entry-drag-preview,
+#theme folders-tree .mat-tree .mat-tree-node.active,
+#theme sidebar .sidebar-menu-item.active,
+#theme analytics-header > .stat > .mat-icon
+{
+	color: var(--site-primary-color-100);
+}
+
+#theme .file-over-dropzone .animation-circle,
+#theme select-plan-period-panel .periods > .radio-button-wrapper > .savings-label,
+#theme material-navbar custom-menu .nav-item.router-link-active, #theme material-navbar custom-menu .nav-item.active,
+#theme .mat-progress-bar-buffer
+{
+	background-color: var(--site-primary-color-100);
+}
+
+#theme select-plan-period-panel .periods > .radio-button-wrapper > .savings-label:after
+{
+	border-left-color: var(--site-primary-color-100);
+}
+
+#theme drive .files-container.file-over-dropzone,
+#theme files-grid-item.selected .files-grid-item-footer,
+#theme files-list .mat-table .mat-row.selected,
+#theme entry-drag-preview,
+#theme folders-tree .mat-tree .mat-tree-node.active,
+#theme sidebar .drag-over,
+#theme sidebar .sidebar-menu-item.active
+{
+	background-color: var(--site-selected-item-bg-color);
+}
+
+#theme move-entries-dialog folders-tree,
+#theme main-searchbar,
+#theme mail-template-preview .email-inbox > .toolbar > .user > .meta > .info > .mat-icon,
+#theme settings .widget.widget-flat,
+#theme create-subscription-panel .paypal-tab > p
+{
+	border-color: var(--site-border-color-100);
+}
+
+#theme file-thumbnail,
+#theme folders-tree .mat-tree .mat-tree-node:not(.active):not(.drag-over),
+#theme sidebar,
+#theme admin > .content .content-inner,
+#theme ads-page .panel > .header,
+#theme appearance > .sidebar,
+#theme add-menu-item-panel,
+#theme menus-appearance-panel .mat-expansion-panel > .mat-expansion-panel-content,
+#theme .select-permissions-modal-container .mat-dialog-container,
+#theme .select-plan-modal-container .mat-dialog-container,
+#theme create-subscription-panel .paypal-tab > p,
+#theme user-subscription-page,
+#theme user-subscription-page .card-preview,
+#theme upgrade-page,
+#theme text-editor .mce-tinymce .mce-panel
+{
+	background-color: var(--site-bg-color-200);
+}
+
+#theme entry-drag-preview .selected-entry-count,
+#theme uploads-panel-item .mat-progress-bar .mat-progress-bar-fill:after,
+#theme .admin-pill-nav > .nav-item.selected,
+#theme .mat-raised-button.mat-accent:not([disabled]), #theme .mat-fab.mat-accent, #theme .mat-mini-fab.mat-accent,
+#theme .mat-flat-button.mat-accent:not([disabled]), #theme .mat-fab.mat-accent, #theme .mat-mini-fab.mat-accent,
+#theme .mat-checkbox-checked.mat-accent .mat-checkbox-background, #theme .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background
+{
+	background-color: var(--site-accent-color);
+}
+
+#theme uploads-panel-item .completed-icon,
+#theme appearance-panel-meta > .title > .path .last,
+#theme user-subscription-page .content .check-icon,
+#theme plan-features-list .mat-list .check-icon,
+#theme text-editor .editor-header .editor-button.success,
+#theme .mat-button.mat-accent, #theme .mat-icon-button.mat-accent
+{
+	color: var(--site-accent-color);
+}
+
+#theme .admin-pill-nav > .nav-item.selected
+{
+	border-color: var(--site-accent-color);
+}
+
+#theme entry-drag-preview .selected-entry-count,
+#theme file-preview-overlay,
+#theme file-preview-toolbar,
+#theme link-preview-container,
+#theme .file-over-dropzone .content-circle,
+#theme uploads-panel .header,
+#theme homepage nav,
+#theme homepage nav .text-logo,
+#theme homepage .content,
+#theme select-plan-period-panel .periods > .radio-button-wrapper > .savings-label,
+#theme material-navbar,
+#theme material-navbar .text-logo,
+#theme material-navbar custom-menu .nav-item.router-link-active, #theme material-navbar custom-menu .nav-item.active
+{
+	color: var(--site-text-color-100);
+}
+
+#theme loading-toast .mat-spinner circle
+{
+	stroke: var(--site-text-color-100);
+}
+
+#theme analytics-header > .stat
+{
+	background-color: var(--site-text-color-100);
+}
+
+#theme .mat-flat-button.mat-gray,
+#theme .context-menu .context-menu-item:disabled,
+#theme .input-container input:disabled, #theme .input-container select:disabled, #theme .input-container textarea:disabled, #theme .input-container .fake-input:disabled
+{
+	color: var(--site-text-color-200);
+}
+
+web-player ::-webkit-scrollbar-thumb, .web-player-theme ::-webkit-scrollbar-thumb
+{
+	background: var(--wp-bg-color-300);
+}
+
+
+web-player ::-webkit-scrollbar-thumb:hover, .web-player-theme ::-webkit-scrollbar-thumb:hover
+{
+	background: var(--wp-bg-color-200);
+}
+

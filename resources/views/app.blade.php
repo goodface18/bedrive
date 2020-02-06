@@ -4,6 +4,11 @@
 	<link rel="manifest" href="client/manifest.json">
 	<meta name="theme-color" content="#1976d2">
 	<script data-ad-client="ca-pub-7269954483216817" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script type="text/javascript">
+		var infolinks_pid = 3226239;
+		var infolinks_wsid = 1;
+	</script>
+	<script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
 @endsection
 
 @section('angular-styles')

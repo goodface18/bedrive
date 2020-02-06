@@ -3,6 +3,13 @@
 @section('progressive-app-tags')
 	<link rel="manifest" href="client/manifest.json">
 	<meta name="theme-color" content="#1976d2">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+	<meta http-equiv="Content-Language" content="en"/>
+	<meta name="Language" content="English US"/>
+	<meta name="description" content="cldstorage provides secure cloud storage for your photos, videos, music and other files." />
+	<meta name="keywords" content="files, secure, cloud, storage, cld, cldstorage, cldstoragestudio, free, upload, media, freeshare"/>
 	<script data-ad-client="ca-pub-7269954483216817" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<script type="text/javascript">
 		var infolinks_pid = 3226239;

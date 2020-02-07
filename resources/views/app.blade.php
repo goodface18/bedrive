@@ -10,8 +10,7 @@
 	<meta name="Language" content="English US"/>
 	<meta name="description" content="cldstorage provides secure cloud storage for your photos, videos, music and other files." />
 	<meta name="keywords" content="files, secure, cloud, storage, cld, cldstorage, cldstoragestudio, free, upload, media, freeshare"/>
-	<meta name="robots" content="noindex, nofollow" />
-	<script data-ad-client="ca-pub-7269954483216817" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- <script data-ad-client="ca-pub-7269954483216817" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
 	<script type="text/javascript">
 		var infolinks_pid = 3226239;
 		var infolinks_wsid = 1;

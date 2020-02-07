@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="{{ asset('client/assets/css/update.css?v1') }}">
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,400italic' rel='stylesheet'
           type='text/css'>
-    <script data-ad-client="ca-pub-7269954483216817" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body id="install">

@@ -13,7 +13,6 @@
                 <title>{{$tag['_text']}}</title>
             @endif
         @endforeach
-        <script data-ad-client="ca-pub-7269954483216817" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </head>
 
     <body>
